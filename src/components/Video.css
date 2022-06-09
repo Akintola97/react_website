@@ -1,24 +1,24 @@
 .earthVid{
-    height:100%;
+    height:100vmin;
     width:100%;
     object-fit: contain;
 }
 
-#vid{
+#video{
     width: 100%;
-    height:100vmin;
+    height:100%;
     position: fixed;
     object-fit: cover;
     z-index: -1;
 }
 
 .vid-overlay{
-    width:100%;
-    height:100%;
-   position:absolute;
-   top:40vmin;
-   left:0;
     text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 40vh;
 }
 
 .vid-overlay h1{
@@ -32,4 +32,17 @@
     color:white;
     text-transform: uppercase;
     padding-bottom: 3vmin;
+}
+.vid-overlay .btn{
+    margin:1rem .2rem;
+}
+
+@media screen and (max-width:640px) {
+    .content h1{
+        font-size:3rem;
+    }
+    .content p{
+        font-size:1.4rem;
+        
+    }
 }
