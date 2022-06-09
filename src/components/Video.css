@@ -1,0 +1,35 @@
+.earthVid{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+
+#vid{
+    width: 100%;
+    height:100vmin;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.vid-overlay{
+    width:100%;
+    height:100%;
+   position:absolute;
+   top:40vmin;
+   left:0;
+    text-align: center;
+}
+
+.vid-overlay h1{
+    font-size: 6vmin;
+    color:white;
+    text-transform: uppercase;
+    padding-bottom: 1vmin;
+}
+.vid-overlay p{
+    font-size: 4vmin;
+    color:white;
+    text-transform: uppercase;
+    padding-bottom: 3vmin;
+}
